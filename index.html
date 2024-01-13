@@ -157,23 +157,40 @@
       <!-- Sidebar -->
       <aside class="sidebar">
         <img
-          class="my-photo"
-          src="img/photo_2023-10-04_12-34-24.jpg"
-          alt="My photo"
+          srcset="./IMG/profile@x2.webp"
+          src="./IMG/profile.webp"
+          alt="my-photo"
           width="370"
+          loading="lazy"
         />
         <div class="sidebar-content">
           <!-- Contacts -->
           <div class="contacts-conteiner">
             <h3 class="contacts-title">Contacts</h3>
             <p class="contacts-item">
-              <span class="contacts-type">C:</span>
-              <a class="contacts-link" href="tell:+380568948745"
-                >+380686005119</a
+              <span class="contacts-type"
+                ><svg
+                  class="contacts-icon"
+                  width="16"
+                  height="16"
+                  aria-label="icon-phone"
+                >
+                  <use href="./IMG/symbol-defs.svg#icon-phone"></use></svg
+              ></span>
+              <a class="contacts-link" href="tell:+380686005113"
+                >+380686005113</a
               >
             </p>
             <p class="contacts-item">
-              <span class="contacts-type">E:</span>
+              <span class="contacts-type"
+                ><svg
+                  class="contacts-icon"
+                  width="16"
+                  height="16"
+                  aria-label="icon-envelop"
+                >
+                  <use href="./IMG/symbol-defs.svg#icon-envelop"></use></svg
+              ></span>
               <a class="contacts-link" href="malto:golovkomaksim852@gmail.com"
                 >golovkomaksim852@gmail.com</a
               >
@@ -186,7 +203,7 @@
             <ul class="skills-list">
               <li class="skills-list-item">HTML5</li>
               <li class="skills-list-item">CSS3</li>
-              <li class="skills-list-item">GIT</li>
+              <li class="skills-list-item">GitHub</li>
               <li class="skills-list-item">WebPack</li>
               <li class="skills-list-item">Java Script</li>
               <li class="skills-list-item">React.js</li>
