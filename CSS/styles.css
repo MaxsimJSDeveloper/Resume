@@ -276,6 +276,10 @@ ol {
     width: 250px;
   }
 
+  .contacts-link {
+    font-size: 10px;
+  }
+
   .my-photo {
     width: 250px;
   }
@@ -303,6 +307,19 @@ ol {
 
   .my-name {
     font-size: 28px;
+  }
+
+  .contacts-icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .contacts-type {
+    margin-right: 0px;
+  }
+
+  .contacts-link {
+    font-size: 9px;
   }
 }
 
